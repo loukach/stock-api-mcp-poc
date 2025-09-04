@@ -1,0 +1,25 @@
+{
+  "name": "stock-api-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Stock API vehicle search",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "stock-api",
+    "vehicle",
+    "search",
+    "ai-tools"
+  ],
+  "author": "Stock API MCP Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.5.0",
+    "node-fetch": "^2.7.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "stock-api-mcp": {
+      "command": "node",
+      "args": ["/home/lucasgros/projects/stock-api-mcp/src/index.js"],
+      "env": {
+        "STOCK_API_KEY": "<replace with your API key>",
+        "STOCK_API_COUNTRY": "it",
+        "STOCK_API_BASE_URL": "https://stock-api.dealerk.com"
+      }
+    }
+  }
+}
